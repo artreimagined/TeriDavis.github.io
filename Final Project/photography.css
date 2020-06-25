@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: #BFAFA2;
+  box-sizing: border-box;
+}
+
+#top {
+  background: url(photography/grass.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 625px;
+}
+
+#banner-text {
+  color: white;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 225px;
+  width: 100%;
+}
+
+#banner-text a {
+  text-decoration: none;
+  color: white;
+  font-size: 80px;
+  font-family: 'Metal Mania', cursive;
+  text-shadow: 2px 2px 1px #364A2F;
+}
+
+.styled-btn {
+  color: #000000;
+  font: 20px 'Lexend Tera', sans-serif;
+  padding: 15px 35px;
+  background-color: #B3BFDA;
+  width: 24.7%;
+  box-shadow: 10px 10px #333E43;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column:hover img{
+  transform: scale(1.2);
+  transition-duration: .3s;
+  filter: grayscale(50%);
+  opacity: .8;
+}
+.column:hover span{
+  color:white;
+  display: block;
+}
+
+

@@ -1,0 +1,66 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font: 16px/1 sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+	background-color: #BFAFA2;
+}
+
+#top {
+  background: url(graphics/giphy.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+}
+
+#banner-text {
+  color: white;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 225px;
+  width: 100%;
+}
+
+#banner-text a {
+  text-decoration: none;
+  color: white;
+  font-size: 85px;
+  font-family: 'Metal Mania', cursive;
+  text-shadow: 2px 2px 1px #364A2F;
+}
+
+.styled-btn {
+  color: #000000;
+  font: 20px 'Lexend Tera', sans-serif;
+  padding: 15px 35px;
+  background-color: #B3BFDA;
+  width: 24.7%;
+  box-shadow: 10px 10px #333E43;
+}
+
+.imagerow {
+	display: flex;
+  padding: 0 4px;
+}
+
+.imgcolumn {
+	flex: 25%;
+	max-width: 25%;
+  padding: 0 4px;
+}
+
+.imgcolumn img {
+	width: 100%;
+}
+
+.imgcolumn:hover { flex: 5 5 100%; }

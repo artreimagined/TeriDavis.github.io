@@ -1,0 +1,68 @@
+body {
+  background-color: #BFAFA2;
+}
+
+.nav {
+  height: 75px;
+}
+
+.styled-btn {
+  /*use this for responsive width: 550px;*/
+  width: 250px;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #800000;
+  color: #fcba03;
+  text-align: center;
+  margin: 0px 10px 10px 0px;
+  font: 25px 'Lexend Tera', sans-serif;
+}
+
+#top {
+  background: url(paintings/galaxy.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+#banner-text {
+  color: white;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 225px;
+  width: 100%;
+}
+
+#banner-text a {
+  text-decoration: none;
+  color: white;
+  font-size: 80px;
+  font-family: 'Metal Mania', cursive;
+  text-shadow: 2px 2px 1px #364A2F;
+}
+
+#aboutme { 
+  background-color: #364A2F;
+  border: 1px solid #000000;
+  width: 100%;
+  color: #fcba03;
+  font-family: 'Lexend Tera', sans-serif;
+  text-align: center;
+}
+
+.aboutme {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  height: 300px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  align-items: center;
+  
+}
+
